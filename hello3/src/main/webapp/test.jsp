@@ -11,6 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-
+<%
+    out.print("hello world");
+    out.print("hello world");
+    out.print("hello world");
+%>
 </body>
 </html>
