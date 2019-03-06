@@ -2,20 +2,21 @@
   Created by IntelliJ IDEA.
   User: starlee
   Date: 2019/3/6
-  Time: 9:40
+  Time: 10:29
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>jsp forward行为元素的使用</title>
 </head>
 <body>
 <%
-    out.print("hello world");
-    out.print("hello world");
-    out.print("hello world");
+    System.out.println("hello world1");
 %>
-<jsp:
+<jsp:forward page="news.jsp"/>
+<%
+    System.out.println("hello world2");
+%>
 </body>
 </html>

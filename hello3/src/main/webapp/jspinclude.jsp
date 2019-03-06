@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: starlee
   Date: 2019/3/6
-  Time: 9:40
+  Time: 10:36
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,11 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<%
-    out.print("hello world");
-    out.print("hello world");
-    out.print("hello world");
-%>
-<jsp:
+<jsp:include page="date.jsp" flush="true"/>
 </body>
 </html>
