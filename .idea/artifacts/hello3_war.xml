@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hello3:war">
+    <output-path>$PROJECT_DIR$/hello3/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hello3</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hello3.war">
+      <element id="artifact" artifact-name="hello3:war exploded" />
+    </root>
+  </artifact>
+</component>
