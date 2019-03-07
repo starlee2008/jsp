@@ -1,9 +1,8 @@
-<%@ page import="cap.bean.Admin" %>
 <%@ page import="java.util.Date" %><%--
   Created by IntelliJ IDEA.
   User: starlee
-  Date: 2019/3/6
-  Time: 8:56
+  Date: 2019/3/7
+  Time: 16:26
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -13,12 +12,13 @@
 </head>
 <body>
 <%
-    Admin admin = new Admin("starlee", "starlee");
-    Date date = new Date();
+    response.setHeader("refresh","1");
 %>
-<%=admin.getUsername()%>
-<%=admin.getPassword()%><br>
-<%=admin.toString()%><br>
+<%
+    Date date=new Date();
+%>
 <%=date.toString()%>
+<br>
+<%=(new Date()).toString()%>
 </body>
 </html>
