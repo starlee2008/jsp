@@ -9,6 +9,7 @@
         <module name="hello2" />
         <module name="hello3" />
         <module name="hello4" />
+        <module name="hello5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="hello2" target="1.7" />
       <module name="hello3" target="1.7" />
       <module name="hello4" target="1.7" />
+      <module name="hello5" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
