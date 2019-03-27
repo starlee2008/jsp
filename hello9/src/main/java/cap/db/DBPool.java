@@ -22,30 +22,30 @@ public class DBPool {
         return connection;
     }
 
-    public ResultSet doQuery(String procedure, Object[] params) {
+    public ResultSet doQuery(String sql, Object[] params) {
         ResultSet resultSet = null;
         getConnection();
         try {
-            CallableStatement callableStatement = connection.prepareCall(procedure);
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
             for (int i = 0; i < params.length; i++) {
-                callableStatement.setObject(i + 1, params[i]);
+                preparedStatement.setObject(i + 1, params[i]);
             }
-            resultSet = callableStatement.executeQuery();
+            resultSet = preparedStatement.executeQuery();
         } catch (Exception e) {
             e.printStackTrace();
         }
         return resultSet;
 
     }
-    public int doUpdate(String procedure, Object[] params) {
+    public int doUpdate(String sql, Object[] params) {
         int result = 0;
         getConnection();
         try {
-            CallableStatement callableStatement = connection.prepareCall(procedure);
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
             for (int i = 0; i < params.length; i++) {
-                callableStatement.setObject(i + 1, params[i]);
+                preparedStatement.setObject(i + 1, params[i]);
             }
-            result = callableStatement.executeUpdate();
+            result = preparedStatement.executeUpdate();
         } catch (Exception e) {
             e.printStackTrace();
         }
