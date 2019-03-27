@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <!-- 这是默认配置信息 -->
+    <default-config>
+        <!-- 连接四大参数配置 -->
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/cap?serverTimezone=UTC</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="user">root</property>
+        <property name="password">admin</property>
+        <!-- 池参数配置 -->
+        <property name="maxPoolSize" value="90" />
+        <property name="minPoolSize" value="10" />
+        <property name="maxIdleTime" value="1800" />
+        <property name="maxStatements" value="0" />
+        <property name="initialPoolSize" value="10" />
+        <property name="idleConnectionTestPeriod" value="1800" />
+    </default-config>
+</c3p0-config>
