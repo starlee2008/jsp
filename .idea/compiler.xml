@@ -12,6 +12,7 @@
         <module name="hello5" />
         <module name="hello6" />
         <module name="hello8" />
+        <module name="hello9" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,6 +23,7 @@
       <module name="hello5" target="1.7" />
       <module name="hello6" target="1.7" />
       <module name="hello8" target="1.7" />
+      <module name="hello9" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
