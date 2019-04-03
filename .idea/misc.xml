@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/hello1" />
+    <file type="web" url="file://$PROJECT_DIR$/hello10" />
     <file type="web" url="file://$PROJECT_DIR$/hello2" />
     <file type="web" url="file://$PROJECT_DIR$/hello3" />
     <file type="web" url="file://$PROJECT_DIR$/hello4" />
@@ -20,6 +21,7 @@
         <option value="$PROJECT_DIR$/hello6/pom.xml" />
         <option value="$PROJECT_DIR$/hello8/pom.xml" />
         <option value="$PROJECT_DIR$/hello9/pom.xml" />
+        <option value="$PROJECT_DIR$/hello10/pom.xml" />
       </list>
     </option>
   </component>
