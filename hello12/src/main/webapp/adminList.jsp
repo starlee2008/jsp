@@ -13,16 +13,19 @@
 </head>
 <body>
 <%
-    List<Admin> adminList= (List<Admin>) session.getAttribute("admins");
+    List<Admin> adminList = (List<Admin>) session.getAttribute("admins");
 %>
 <table>
     <%
-        for(Admin admin:adminList){
+        for (Admin admin : adminList) {
     %>
     <tr>
-        <td><%=admin.getId()%></td>
-        <td><%=admin.getUsername()%></td>
-        <td><%=admin.getPassword()%></td>
+        <td><%=admin.getId()%>
+        </td>
+        <td><%=admin.getUsername()%>
+        </td>
+        <td><%=admin.getPassword()%>
+        </td>
         <td><a href="del?id=<%=admin.getId()%>">delete1</a></td>
         <td><a href="admin?action=del&id=<%=admin.getId()%>">delete2</a></td>
     </tr>
