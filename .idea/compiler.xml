@@ -13,6 +13,7 @@
         <module name="hello14" />
         <module name="hello15" />
         <module name="hello16" />
+        <module name="hello17" />
         <module name="hello2" />
         <module name="hello3" />
         <module name="hello4" />
@@ -32,6 +33,7 @@
       <module name="hello14" target="1.7" />
       <module name="hello15" target="1.7" />
       <module name="hello16" target="1.7" />
+      <module name="hello17" target="1.7" />
       <module name="hello2" target="1.7" />
       <module name="hello3" target="1.7" />
       <module name="hello4" target="1.7" />

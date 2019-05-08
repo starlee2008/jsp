@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/hello14" />
     <file type="web" url="file://$PROJECT_DIR$/hello15" />
     <file type="web" url="file://$PROJECT_DIR$/hello16" />
+    <file type="web" url="file://$PROJECT_DIR$/hello17" />
     <file type="web" url="file://$PROJECT_DIR$/hello2" />
     <file type="web" url="file://$PROJECT_DIR$/hello3" />
     <file type="web" url="file://$PROJECT_DIR$/hello4" />
@@ -35,6 +36,7 @@
         <option value="$PROJECT_DIR$/hello14/pom.xml" />
         <option value="$PROJECT_DIR$/hello15/pom.xml" />
         <option value="$PROJECT_DIR$/hello16/pom.xml" />
+        <option value="$PROJECT_DIR$/hello17/pom.xml" />
       </list>
     </option>
   </component>
